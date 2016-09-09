@@ -99,7 +99,7 @@ class Payment extends Component {
           <div className="hosted-field" id="expiration-date"></div>
 
           <input type="hidden" name="payment-method-nonce" />
-          <input class="submit-btn" type="submit" value="Submit Payment" disabled />
+          <input className="submit-btn" type="submit" value="Submit Payment" disabled />
         </form>
       </div>
     )
